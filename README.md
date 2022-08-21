@@ -1,20 +1,19 @@
-# beajs-cli
-a cli tool for BEAJS Javascript Framework.
+# LumenJS Reactive JavaScript Framework
 
-&nbsp;
+LumenJS is a tiny robust reactive javascript framework for building scalable and high-performant web applications and web user interfaces, be it simple or complex, with standard HTML, CSS and JavaScript.
+<a href="https://lumen.bea.com.lb/" target="_blank">LumenJS Documentation</a>
 
-# BEA's Reactive JavaScript Framework
 
-BEAJS is a tiny robust reactive javascript framework for building scalable and high-performant web applications and web user interfaces, be it simple or complex, with standard HTML, CSS and JavaScript.
 
-BEAJS comes along with BEACSS library which is a utility-first CSS framework packed with grid and table sectioning systems and classes like g, mt20, pv100, c and sq that can be composed to build any design, directly in your markup.
+LumenJS comes along with MobiusCSS library which is a utility-first CSS framework packed with grid and table sectioning systems and classes like g, mt20, pv100, c and sq that can be composed to build any design, directly in your markup.
+<a href="https://mobius.bea.com.lb/" target="_blank">MobiusCSS Documentation</a>
 
 &nbsp;
 
 ## Installation
 Using npm:
 ```
-npm install -g @beajs/cli
+npm install -g @lumen.js/cli
 ```
 
 &nbsp;
@@ -22,34 +21,55 @@ npm install -g @beajs/cli
 ## USAGE
 Create A New Project
 ```
-beajs create My Project Name
+lu create My Project Name
 ```
 
 &nbsp;
 
 Run The Project
 ```
-beajs run
+lu serve
 ```
 
 &nbsp;
 
 Create A View
 ```
-beajs create -v myview
+lu create -v myview
 ```
 
 &nbsp;
 
 Create A Sub View
 ```
-beajs create -s mysubview
+lu create -s mysubview
 ```
 
 &nbsp;
 
 Create A Component Template
 ```
-beajs create -c mycomponent
+lu create -c mycomponent
+```
+
+&nbsp;
+
+Purge Offline Cache Files (For Offline Usage)
+```
+lu purge
+```
+
+&nbsp;
+
+Build A Dist For Production Version + NodeJs Server
+```
+lu build
+```
+
+&nbsp;
+
+Build A Dist For Production Version without NodeJs Server
+```
+lu build --no-server
 ```
 
