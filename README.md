@@ -10,6 +10,10 @@ LumenJS comes along with MobiusCSS library which is a utility-first CSS framewor
 
 &nbsp;
 
+<a href="https://www.npmjs.com/package/@lmjs/cli" target="_blank">NPM Package</a>
+
+&nbsp;
+
 ## Installation
 Using npm:
 ```
