@@ -21,55 +21,55 @@ npm install -g @lumen.js/cli
 ## USAGE
 Create A New Project
 ```
-lu create My Project Name
+lm create My Project Name
 ```
 
 &nbsp;
 
 Run The Project
 ```
-lu serve
+lm serve
 ```
 
 &nbsp;
 
 Create A View
 ```
-lu create -v myview
+lm create -v myview
 ```
 
 &nbsp;
 
 Create A Sub View
 ```
-lu create -s mysubview
+lm create -s mysubview
 ```
 
 &nbsp;
 
 Create A Component Template
 ```
-lu create -c mycomponent
+lm create -c mycomponent
 ```
 
 &nbsp;
 
 Purge Offline Cache Files (For Offline Usage)
 ```
-lu purge
+lm purge
 ```
 
 &nbsp;
 
 Build A Dist For Production Version + NodeJs Server
 ```
-lu build
+lm build
 ```
 
 &nbsp;
 
 Build A Dist For Production Version without NodeJs Server
 ```
-lu build --no-server
+lm build --no-server
 ```
 
