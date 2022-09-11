@@ -1,3 +1,5 @@
+![LumenJS Reactive JavaScript Framework](https://lumen.bea.com.lb/lmjs.svg)
+
 # LumenJS Reactive JavaScript Framework
 
 LumenJS is a tiny robust reactive javascript framework for building scalable and high-performant web applications and web user interfaces, be it simple or complex, with standard HTML, CSS and JavaScript.
@@ -10,14 +12,10 @@ LumenJS comes along with MobiusCSS library which is a utility-first CSS framewor
 
 &nbsp;
 
-<a href="https://www.npmjs.com/package/@lmjs/cli" target="_blank">NPM Package</a>
-
-&nbsp;
-
 ## Installation
 Using npm:
 ```
-npm install -g @lumen.js/cli
+npm install -g @lmjs/cli
 ```
 
 &nbsp;
@@ -27,6 +25,7 @@ Create A New Project
 ```
 lm create My Project Name
 ```
+You can use lu, lm, or lumen as a command.
 
 &nbsp;
 
@@ -72,8 +71,22 @@ lm build
 
 &nbsp;
 
+Build A Dist For Production Version + NodeJs Server & Deploy It Directly
+```
+lm build --deploy
+```
+
+&nbsp;
+
 Build A Dist For Production Version without NodeJs Server
 ```
-lm build --no-server
+lm build --serverless
+```
+
+&nbsp;
+
+Build A Dist For Production Version without NodeJs Server & Deploy It Directly
+```
+lm build --serverless --deploy
 ```
 
