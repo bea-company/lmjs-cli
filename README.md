@@ -1,14 +1,14 @@
-![LumenJS Reactive JavaScript Framework](https://lumen.bea.com.lb/lmjs.svg)
+![LumenJS Reactive JavaScript Framework](https://www.lumenjs.com/images/lumenjs.svg)
 
 # LumenJS Reactive JavaScript Framework
 
 LumenJS is a tiny robust reactive javascript framework for building scalable and high-performant web applications and web user interfaces, be it simple or complex, with standard HTML, CSS and JavaScript.
-<a href="https://lumen.bea.com.lb/" target="_blank">LumenJS Documentation</a>
+<a href="https://www.lumenjs.com/" target="_blank">LumenJS Documentation</a>
 
 
 
 LumenJS comes along with MobiusCSS library which is a utility-first CSS framework packed with grid and table sectioning systems and classes like g, mt20, pv100, c and sq that can be composed to build any design, directly in your markup.
-<a href="https://mobius.bea.com.lb/" target="_blank">MobiusCSS Documentation</a>
+<a href="https://www.lumenjs.com/mobius" target="_blank">MobiusCSS Documentation</a>
 
 &nbsp;
 
@@ -50,9 +50,9 @@ lm create -s mysubview
 
 &nbsp;
 
-Create A Component Template
+Create A Template
 ```
-lm create -c mycomponent
+lm create -c mytemplate
 ```
 
 &nbsp;
@@ -60,20 +60,6 @@ lm create -c mycomponent
 Purge Offline Cache Files (For Offline Usage)
 ```
 lm purge
-```
-
-&nbsp;
-
-Build A Dist For Production Version + NodeJs Server
-```
-lm build
-```
-
-&nbsp;
-
-Build A Dist For Production Version + NodeJs Server & Deploy It Directly
-```
-lm build --deploy
 ```
 
 &nbsp;
@@ -90,3 +76,16 @@ Build A Dist For Production Version without NodeJs Server & Deploy It Directly
 lm build --serverless --deploy
 ```
 
+&nbsp;
+
+Build A Dist For Production Version + NodeJs Server
+```
+lm build
+```
+
+&nbsp;
+
+Build A Dist For Production Version + NodeJs Server & Deploy It Directly
+```
+lm build --deploy
+```
