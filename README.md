@@ -1,14 +1,14 @@
-![LumenJS Reactive JavaScript Framework](https://www.lumenjs.com/images/lumenjs.svg)
+<img src="https://www.lumenjs.com/images/lumen_icon_yellow.svg" alt="LumenJS Reactive JavaScript Framework" width="25%" />
 
 # LumenJS Reactive JavaScript Framework
 
-LumenJS is a tiny robust reactive javascript framework for building scalable and high-performant web applications and web user interfaces, be it simple or complex, with standard HTML, CSS and JavaScript.
-<a href="https://www.lumenjs.com/" target="_blank">LumenJS Documentation</a>
+LumenJS is a cutting-edge, tiny, and lightning-fast reactive JavaScript framework that is set to revolutionize the way developers build dynamic user interfaces. Building scalable and high-performant web applications and web user interfaces, be it simple or complex, with standard HTML, CSS and JavaScript only.
+<a href="https://www.lumenjs.com/guide" target="_blank">LumenJS Documentation</a>
 
 
 
-LumenJS comes along with MobiusCSS library which is a utility-first CSS framework packed with grid and table sectioning systems and classes like g, mt20, pv100, c and sq that can be composed to build any design, directly in your markup.
-<a href="https://www.lumenjs.com/mobius" target="_blank">MobiusCSS Documentation</a>
+LumenJS comes along with MobiusCSS which is a utility-first CSS framework packed with grid and table sectioning systems and classes like g, mt20, pv100, c and sq that can be composed to build any design, directly in your markup.
+<a href="https://www.mobiuscss.com/guide" target="_blank">MobiusCSS Documentation</a>
 
 &nbsp;
 
@@ -52,7 +52,7 @@ lm create -s mysubview
 
 Create A Template
 ```
-lm create -c mytemplate
+lm create -t mytemplate
 ```
 
 &nbsp;
@@ -64,14 +64,14 @@ lm purge
 
 &nbsp;
 
-Build A Dist For Production Version without NodeJs Server
+Build A Serverless Dist For Production Version
 ```
 lm build --serverless
 ```
 
 &nbsp;
 
-Build A Dist For Production Version without NodeJs Server & Deploy It Directly
+Build A Serverless Dist For Production Version & Deploy It Directly
 ```
 lm build --serverless --deploy
 ```
